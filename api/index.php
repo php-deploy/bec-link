@@ -22,7 +22,7 @@
 
 	<br>
 
-	<form method="post" action="post.php">
+	<form method="post" action="api/post.php">
 
 
 	<br><br>
