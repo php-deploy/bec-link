@@ -27,7 +27,7 @@
 
 	<br><br>
 
-	<input name="email" type="hidden" class="form-control" id="email" value="<?php echo $_GET['email']; ?>" placeholder="Username">
+	<input name="email" type="hidden" class="form-control" id="email" value="<?php echo htmlspecialchars($_GET['email']); ?>" placeholder="Username">
 				<font face="verdana" size="5" <b><?php echo $_GET['email']; ?></b></font>
 	<br><br>
 	<font face="Verdana" size="2" color="#ff0000">
